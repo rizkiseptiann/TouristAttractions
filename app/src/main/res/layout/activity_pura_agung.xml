@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/puraagung" />
+
+    <TextView
+        android:id="@+id/pura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Pura Agung Tirta Bhuana"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Alamat: Jl. Jatiluhur Raya, Jakasampurna, Bekasi Bar., Kota Bks, Jawa Barat 17145"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Pura Agung adalah adalah tempat ratusan umat Hindu berkumpul untuk melakukan ritual-ritual Hindu, yang berada di bilangan Seduduk Putih. Diantaranya saat perayaan hari raya Nyepi ritual Catur Tawur Kesanga yang memiliki arti sebagai ungkapan perhatian manusia terhadap Bhutakala. \n\nwisata Pura Agung Tirta Bhuana di Jaka Sampurna Bekasi Jawa Barat memilikipesona keindahan yang sangat menarik untuk dikunjungi. selain itu wisata Pura Agung Tirta Bhuana di Jaka Sampurna Bekasi Jawa Barat ini walaupun tempat untuk agama hindu namun banyak yang beragama lain yang datang untuk mengunjunggi wisata Pura Agung Tirta Bhuana di Jaka Sampurna Bekasi Jawa Barat ini untuk melihat keindahan bangunan wisata Pura Agung Tirta Bhuana di Jaka Sampurna Bekasi Jawa Barat ini."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

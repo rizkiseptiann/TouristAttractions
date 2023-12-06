@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wisatabekasi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WisataBekasi">
+        <activity
+            android:name=".About"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".BaksoKemon"
+            android:exported="false"
+            android:parentActivityName=".WisataKuliner"
+            />
+        <activity
+            android:name=".OutTheBox"
+            android:exported="false"
+            android:parentActivityName=".WisataKuliner"
+            />
+        <activity
+            android:name=".WisataKuliner"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".GedungJuang"
+            android:exported="false"
+            android:parentActivityName=".WisataEdukasi"
+            />
+        <activity
+            android:name=".WisataEdukasi"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".PuraAgung"
+            android:exported="false"
+            android:parentActivityName=".WisataAlam"
+            />
+        <activity
+            android:name=".SituGede"
+            android:exported="false"
+            android:parentActivityName=".WisataAlam"
+            />
+        <activity
+            android:name=".Columbus"
+            android:exported="false"
+            android:parentActivityName=".WisataAlam"
+            />
+        <activity
+            android:name=".TamanBuaya"
+            android:exported="false"
+            android:parentActivityName=".WisataEdukasi"
+            />
+        <activity
+            android:name=".GoWet"
+            android:exported="false"
+            android:parentActivityName=".WisataAlam"
+            />
+        <activity
+            android:name=".WisataAlam"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

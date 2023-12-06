@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/gowet" />
+
+    <TextView
+        android:id="@+id/gowet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:text="Go! Wet Waterpark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Alamat: Grand Wisata Bekasi, Jl. Southern Boulevard Kav. 1, Lambang Jaya, Tambun Selatan, Bekasi, Jawa Barat 17510"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Beroperasi sejak 9 Februari 2015, Go! Wet adalah taman air untuk segala usia yang dirancang oleh Whitewater, konsultan taman rekreasi internasional terkenal dari Kanada. Go! Wet dibangun di area seluas 7,5 hektar dengan 5 hektar yang didedikasikan untuk wahana air seperti: Go! Fast, Go! Speed, Go! Sprint dan Go! Flash.\n \nTempat-tempat menarik lainnya termasuk Go! Fun, Go! Play, Go! Boomer, Go! Round, dan Go! Spray, dirancang untuk anak-anak agar memiliki varietas permainan air yang aman. Yang lain adalah Go! Lazy, naik dalam air yang mengalir lambat menggunakan pelampung yang mengambang. Jangan lupa untuk naik Go! Twist dan Go! Spin yang memberikan sensasi adrenalin tinggi yang tidak akan pernah Anda lupakan!Grand Wisata Bekerja sama dengan Mahaka group dalam pengelolaan Go! Wet, di yakinin akan memberikan pelayanan dan pengalamanyang menyenangkan."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>
